@@ -76,7 +76,15 @@ li {
     transform: rotate(-30deg);
     border-radius: 30px;
     opacity: 50%;
+    position: absolute;
+    inset: 100px 0 100px 0;
     
+    
+}
+
+.hex-div {
+    position: relative:
+    overflow: hidden;
 }
 
 h1 { 
