@@ -151,35 +151,16 @@ h1 {
 }
 /* End of projects section header and paragraph */
 
-/* Start of images in the projects section */
-/* #TechPage-img {
-    width: 40%;
-    margin: 5px;
-}
-
-#LickyMat-img {
-    width: 40%;
-    margin: 5px;
-}
-
-#RegistrationForm-img {
-    width: 40%;
-    margin: 5px;
-}
-#TeslaTribute-img {
-    width: 40%;
-    margin: 5px;
-} */
-
 .container-project-list img {
 	width: 40%;
 	margin: 5px;
+    box-shadow: 0 0 10px rgba(59, 5, 125, 0.5);
 }
 
 /* End of images in the projects section */
-
-.container-project-list {
       
+#RegistrationForm-img {
+    height: 100%;
 }
 
 footer {
