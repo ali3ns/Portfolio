@@ -152,7 +152,7 @@ h1 {
 /* End of projects section header and paragraph */
 
 /* Start of images in the projects section */
-#TechPage-img {
+/* #TechPage-img {
     width: 40%;
     margin: 5px;
 }
@@ -169,6 +169,11 @@ h1 {
 #TeslaTribute-img {
     width: 40%;
     margin: 5px;
+} */
+
+.container-project-list img {
+	width: 40%;
+	margin: 5px;
 }
 
 /* End of images in the projects section */
