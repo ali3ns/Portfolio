@@ -155,15 +155,41 @@ h1 {
 .container-project-list img {
 	width: 40%;
 	margin: 8px;
-    box-shadow: 0 0 10px rgba(59, 5, 125, 0.5);
+    box-shadow: 0 0 10px rgba(31, 3, 79, 0.7);
     border-radius: 5px;
+    
 }
-
-/* End of images in the projects section */
       
 #RegistrationForm-img {
     height: 100%;
 }
+
+/* End of images in the projects section */
+
+/* Show all button */
+
+.show-all-button {
+    height: 35px;
+    width: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--purple-color);
+    background-color: var(--white-color);
+    border-radius: 6px;
+    border-color: 2px solid var(--white-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--purple-color);
+    color: white;
+}
+
+/* Button END */
 
 footer {
     display: flex;
@@ -177,3 +203,4 @@ footer {
     padding: 10px 5%;
     opacity: 100%;
 }
+
